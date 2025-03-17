@@ -44,6 +44,7 @@
       <button class="start-quiz-btn">Start Quiz</button>
     </div>
 
+    <!--Quiz Container-->
     <div class="quiz-container">
         <div class="quiz-header">
             <h2 class="quiz-title">Quiz Application</h2>
@@ -59,11 +60,11 @@
                 <li class="answer-option">
                     <p>Create function myFunction()</p>
                 </li>
-                <li class="answer-option">
-                    <p>Create function myFunction()</p>
+                <li class="answer-option correct">
+                    <p>Create function myFunction()</p><i class="fa-regular fa-circle-check"></i>
                 </li>
-                <li class="answer-option">
-                    <p>Create function myFunction()</p>
+                <li class="answer-option incorrect">
+                    <p>Create function myFunction()</p><i class="fa-regular fa-circle-xmark"></i>
                 </li>
                 <li class="answer-option">
                     <p>Create function myFunction()</p>
@@ -73,11 +74,23 @@
         </div>
 
         <div class="quiz-footer">
-            <p class="question-status"><b>2</b>of<b>10</b></p>
+            <p class="question-status"><b>2</b>of<b>10</b>Questions</p>
             <button class="next-question-btn">Next<i class="fa-solid fa-right-long"></i></button>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!--Result Container-->
+
+    <div class="result-container">
+      <img src="quiz-over.png" alt="" class="result-img">
+      <h2 class="result-title">Quiz Completed!</h2>
+      <p class="result-message">You answered <b>0</b> but of <b>5</b> questions correctly. Great effort!</p>
+      <button class="try-again-btn">Try Again</button>
+    </div>
+
+
+    <script src="JavaScript/question.js"></script>
+    <script src="JavaScript/script.js"></script>
+    
   </body>
 </html>
