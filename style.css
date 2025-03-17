@@ -204,6 +204,7 @@ background: #306666;
     .quiz-footer .next-question-btn{
         display: inline-flex;
         gap: 5px;
+        visibility: hidden;
         align-items: center;
         padding: 9px 15px;
     }
