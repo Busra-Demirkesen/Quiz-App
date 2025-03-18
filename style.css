@@ -20,7 +20,7 @@ body{
 }
 
 .config-container{
-  
+    display: block;
     width:450px;
     padding: 25px;
     text-align: center;
@@ -105,7 +105,7 @@ background: #306666;
 }
 
 .quiz-container{
-    display: block;
+ 
     width: 500px;
 }
 
